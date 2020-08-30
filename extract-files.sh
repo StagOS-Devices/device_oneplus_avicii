@@ -41,6 +41,9 @@ function blob_fixup() {
     system_ext/lib64/libwfdnative.so)
         sed -i "s/android.hidl.base@1.0.so/libhidlbase.so\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00/" "${2}"
         ;;
+    vendor/lib/libgf_ud_hal.so|vendor/lib64/libgf_ud_hal.so)
+        sed -i "s|vendor.boot.verifiedbootstate|vendor.boot.fingerprintbstate|g" "${2}"
+        ;;
     esac
 }
 
@@ -72,10 +75,6 @@ done
 if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
-
-setup_vendor "${DEVICE}" "${VENDOR}" "${PIXYS_ROOT}" false "${CLEAN_VENDOR}"
-extract "${MY_DIR}/../${DEVICE}/proprietary-files.txt" "${SRC}" \
-        "${KANG}" --section "${SECTION}"
 
 BLOB_ROOT="${PIXYS_ROOT}/vendor/${VENDOR}/${DEVICE}/proprietary"
 
