@@ -23,13 +23,13 @@ $(call inherit-product, device/oneplus/avicii/device.mk)
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/CarrierSettings/config.mk)
 
 # PixysOS Properties
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 #TARGET_SUPPORT_APEX := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_USES_CARRIERSETTINGS := true
 
 PRODUCT_NAME := pixys_avicii
 PRODUCT_DEVICE := avicii
