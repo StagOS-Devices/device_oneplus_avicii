@@ -797,4 +797,9 @@
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>9</item> <!-- COLOR_MODE_DISPLAY_P3 -->
     </integer-array>
+
+    <!-- Whether to enable shifting of elements in the status bar and the navigation bar.
+         Should be enabled for OLED devices to reduce/prevent burn-in on the status bar
+         and on the navigation bar and disabled for all other devices. -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
 </resources>
