@@ -23,6 +23,7 @@ $(call inherit-product, device/oneplus/avicii/device.mk)
 
 # Inherit some common Stag stuff.
 $(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/stag/CarrierSettings/config.mk)
 
 #TARGET_SUPPORT_APEX := true
 TARGET_INCLUDE_STOCK_ARCORE := true
