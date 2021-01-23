@@ -802,4 +802,8 @@
          Should be enabled for OLED devices to reduce/prevent burn-in on the status bar
          and on the navigation bar and disabled for all other devices. -->
     <bool name="config_statusBarBurnInProtection">true</bool>
+
+    <!-- Whether device supports in-display fingerprint when screen is turned off -->
+    <bool name="config_supportsInDisplayFingerprintGesture">true</bool>
+
 </resources>
