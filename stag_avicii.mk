@@ -21,17 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from avicii device
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
-# Inherit some common Pixys stuff.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+# Inherit some common StagOS stuff.
+$(call inherit-product, vendor/stag/main.mk)
 
-# PixysOS Properties
-TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-
-PRODUCT_NAME := pixys_avicii
+PRODUCT_NAME := stag_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

@@ -1,0 +1,25 @@
+[
+  {
+    "repository": "LineageOS/android_device_oneplus_common",
+    "target_path": "device/oneplus/common",
+    "remote": "github",
+    "branch": "lineage-18.1"
+  },
+  {
+    "repository": "PixysOS-Devices/kernel_oneplus_sm7250",
+    "target_path": "kernel/oneplus/sm7250",
+    "remote": "github",
+    "branch": "eleven"
+  },
+  {
+    "repository": "vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii",
+    "remote": "gitlab-stag"
+  },
+  {
+    "repository": "vendor_oneplus_avicii",
+    "target_path": "vendor/oneplus/avicii-vendor",
+    "remote": "gitlab-stag",
+    "branch": "r11-vendor"
+  }
+]
