@@ -6,9 +6,9 @@
     "branch": "lineage-18.1"
   },
   {
-    "repository": "PixysOS-Devices/kernel_oneplus_sm7250",
+    "repository": "stormbreaker-project/kernel_oneplus_avicii",
     "target_path": "kernel/oneplus/sm7250",
-    "branch": "eleven",
+    "branch": "main",
     "remote": "github"
   },
   {
