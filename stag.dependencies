@@ -1,9 +1,9 @@
 [
   {
-    "repository": "LineageOS/android_device_oneplus_common",
+    "repository": "PixysOS-Devices/device_oneplus_common",
     "target_path": "device/oneplus/common",
     "remote": "github",
-    "branch": "lineage-18.1"
+    "branch": "eleven"
   },
   {
     "repository": "stormbreaker-project/kernel_oneplus_avicii",
