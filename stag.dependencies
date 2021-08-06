@@ -30,9 +30,9 @@
     "remote": "gitlab"
   },
   {
-    "repository": "PixysOS/vendor_oneplus_avicii-camera",
+    "repository": "vendor_oneplus_avicii-camera",
     "target_path": "vendor/oneplus/avicii-camera",
-    "branch": "eleven",
-    "remote": "gitlab"
+    "branch": "r11",
+    "remote": "gitlab-stag"
   }
 ]
