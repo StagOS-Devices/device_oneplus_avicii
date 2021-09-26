@@ -6,9 +6,9 @@
     "branch": "eleven"
   },
   {
-    "repository": "stormbreaker-project/kernel_oneplus_avicii",
+    "repository": "aswin7469/kernel_oneplus_sm7250",
     "target_path": "kernel/oneplus/sm7250",
-    "branch": "main",
+    "branch": "eleven",
     "remote": "github"
   },
   {
