@@ -1,0 +1,41 @@
+[
+  {
+    "repository": "device_oneplus_sm7250-common",
+    "target_path": "device/oneplus/sm7250-common"
+  },
+  {
+    "repository": "hardware_oneplus",
+    "target_path": "hardware/oneplus",
+    "branch": "s12.1-avicii"
+  },
+  {
+    "repository": "manikantaraavi/kernel_oneplus_sm7250-1",
+    "target_path": "kernel/oneplus/avicii",
+    "branch": "twelve",
+    "remote": "github"
+  },
+  {
+    "repository"  : "manikantaraavi/vendor_oneplus_avicii",
+    "target_path" : "vendor/oneplus/avicii",
+    "branch"      : "12",
+    "remote"      : "github"
+  },
+  {
+    "repository": "manikantaraavi/vendor_oneplus-firmware",
+    "target_path": "vendor/oneplus/firmware",
+    "branch": "12",
+    "remote": "gitlab"
+  },
+  {
+    "repository"  : "manikantaraavi/vendor_oneplus_sm7250-common",
+    "target_path" : "vendor/oneplus/sm7250-common",
+    "branch"      : "nameless",
+    "remote"      : "github"
+  },
+  {
+    "repository": "manikantaraavi/vendor_oneplus_avicii-camera",
+    "target_path": "vendor/oneplus/avicii-camera",
+    "branch": "snow",
+    "remote": "gitlab"
+  }
+]

@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/avicii/device.mk)
 
 # Inherit some common Nameless stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
 # Nameless Properties
 TARGET_USES_AOSP_RECOVERY := true
@@ -30,7 +30,10 @@ TARGET_USES_AOSP_RECOVERY := true
 # Offical Bruh
 CUSTOM_BUILD_TYPE := Official
 
-PRODUCT_NAME := aosp_avicii
+# Extra Animations
+EXTRA_UDFPS_ANIMATIONS := true
+ 
+PRODUCT_NAME := stag_avicii
 PRODUCT_DEVICE := avicii
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
